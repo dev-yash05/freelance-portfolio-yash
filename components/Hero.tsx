@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
+import Image from "next/image";
 import MagneticButton from "@/components/MagneticButton";
 
 const container: Variants = {
@@ -64,33 +65,16 @@ export default function Hero() {
 
         <motion.aside
           variants={item}
-          className="relative overflow-hidden min-h-[390px] sm:min-h-[450px] rounded-[2rem] border border-border bg-bg-2 p-7 sm:p-9 flex flex-col justify-between"
+          className="relative overflow-hidden min-h-[390px] sm:min-h-[400px] rounded-[2rem] border border-border/50 bg-cream"
         >
-          <div className="absolute -right-20 -top-24 h-72 w-72 rounded-full border border-gold/30" />
-          <div className="absolute -right-8 -top-12 h-48 w-48 rounded-full border border-gold/30" />
-
-          <div className="relative flex items-center justify-between font-mono text-[11px] tracking-[0.14em] text-cream-dim">
-            <span>CREATIVE PARTNERSHIP</span>
-            <span className="text-gold">01 — 03</span>
-          </div>
-
-          <div className="relative">
-            <p className="font-serif text-[40px] sm:text-5xl leading-[1.06] max-w-sm">
-              Design that feels as good as it performs.
-            </p>
-            <div className="mt-7 h-px w-16 bg-gold" />
-          </div>
-
-          <div className="relative grid grid-cols-2 gap-4 border-t border-cream/15 pt-6 text-sm">
-            <div>
-              <span className="block font-serif text-2xl text-gold">01</span>
-              <span className="mt-1 block text-cream-dim">Strategy-first thinking</span>
-            </div>
-            <div>
-              <span className="block font-serif text-2xl text-gold">02</span>
-              <span className="mt-1 block text-cream-dim">Detail-led execution</span>
-            </div>
-          </div>
+          <Image
+            src="/hero-img-1.png"
+            alt="Portfolio Mockup"
+            fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
+            className="object-cover"
+            priority
+          />
         </motion.aside>
       </div>
     </motion.section>
