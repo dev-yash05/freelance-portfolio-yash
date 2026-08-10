@@ -1,14 +1,16 @@
+import dynamic from "next/dynamic";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Marquee from "@/components/Marquee";
-import BuiltFor from "@/components/BuiltFor";
-import Work from "@/components/Work";
-import Services from "@/components/Services";
-import WhyMe from "@/components/WhyMe";
-import Process from "@/components/Process";
-import About from "@/components/About";
-import CTA from "@/components/CTA";
-import Footer from "@/components/Footer";
+
+const Marquee = dynamic(() => import("@/components/Marquee"));
+const BuiltFor = dynamic(() => import("@/components/BuiltFor"));
+const Work = dynamic(() => import("@/components/Work"));
+const Services = dynamic(() => import("@/components/Services"));
+const WhyMe = dynamic(() => import("@/components/WhyMe"));
+const Process = dynamic(() => import("@/components/Process"));
+const About = dynamic(() => import("@/components/About"));
+const CTA = dynamic(() => import("@/components/CTA"));
+const Footer = dynamic(() => import("@/components/Footer"));
 
 export default function Home() {
   return (

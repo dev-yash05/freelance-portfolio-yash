@@ -80,7 +80,7 @@ export default function Marquee() {
               <span className="font-mono text-xs font-semibold tracking-wider text-cream group-hover:text-gold transition-colors uppercase">
                 {item.name}
               </span>
-              <span className="text-gold/40 group-hover:text-gold transition-colors text-[10px] ml-1">
+              <span className="text-gold/70 group-hover:text-gold transition-colors text-[10px] ml-1">
                 ✦
               </span>
             </div>

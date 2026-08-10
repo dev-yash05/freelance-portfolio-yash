@@ -76,9 +76,9 @@ export default function About() {
               <div className="text-gold text-2xl font-serif mb-4 transform group-hover:scale-125 group-hover:rotate-12 transition-transform duration-500 origin-bottom-left">
                 ✦
               </div>
-              <h4 className="text-cream font-medium text-xl mb-2 font-serif">
+              <h3 className="text-cream font-medium text-xl mb-2 font-serif">
                 Design
-              </h4>
+              </h3>
               <p className="text-cream-dim text-sm leading-relaxed">
                 Clean, modern, and pixel-perfect aesthetics tailored to your brand.
               </p>
@@ -87,9 +87,9 @@ export default function About() {
               <div className="text-gold text-2xl font-serif mb-4 transform group-hover:scale-125 group-hover:rotate-12 transition-transform duration-500 origin-bottom-left">
                 ✦
               </div>
-              <h4 className="text-cream font-medium text-xl mb-2 font-serif">
+              <h3 className="text-cream font-medium text-xl mb-2 font-serif">
                 Code
-              </h4>
+              </h3>
               <p className="text-cream-dim text-sm leading-relaxed">
                 Fast, scalable, and built from scratch with industry best practices.
               </p>

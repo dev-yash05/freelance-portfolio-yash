@@ -99,9 +99,9 @@ export default function WhyMe() {
               <div className="font-mono text-xs md:text-sm text-gold tracking-widest mb-8 block">
                 {p.n} —
               </div>
-              <h4 className="font-serif text-3xl md:text-4xl text-cream mb-5">
+              <h3 className="font-serif text-3xl md:text-4xl text-cream mb-5">
                 {p.title}
-              </h4>
+              </h3>
               <p className="text-cream-dim text-base md:text-lg leading-relaxed max-w-sm">
                 {p.desc}
               </p>

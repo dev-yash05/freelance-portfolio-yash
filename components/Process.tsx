@@ -104,9 +104,9 @@ export default function Process() {
               </div>
 
               <div className="flex-1 transform transition-transform duration-500 md:group-hover:translate-x-4">
-                <h4 className="font-serif text-3xl md:text-4xl text-cream mb-4">
+                <h3 className="font-serif text-3xl md:text-4xl text-cream mb-4">
                   {s.title}
-                </h4>
+                </h3>
                 <p className="text-cream-dim text-base md:text-lg leading-relaxed max-w-md">
                   {s.desc}
                 </p>

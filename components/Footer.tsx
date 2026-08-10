@@ -6,10 +6,10 @@ export default function Footer() {
         <a href="mailto:hello@yash.dev" className="hover:text-gold-bright transition-colors">
           Email
         </a>
-        <a href="#" className="hover:text-gold-bright transition-colors">
+        <a href="#" aria-label="LinkedIn Profile" className="hover:text-gold-bright transition-colors">
           LinkedIn
         </a>
-        <a href="#" className="hover:text-gold-bright transition-colors">
+        <a href="#" aria-label="GitHub Profile" className="hover:text-gold-bright transition-colors">
           GitHub
         </a>
       </div>

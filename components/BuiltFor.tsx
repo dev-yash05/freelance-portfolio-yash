@@ -81,7 +81,7 @@ export default function BuiltFor() {
               </div>
               {i !== segments.length - 1 && (
                 <div className="overflow-hidden inline-flex py-1">
-                  <span className="word-item text-gold/40 text-3xl md:text-5xl font-sans font-light origin-bottom-left">
+                  <span className="word-item text-gold/70 text-3xl md:text-5xl font-sans font-light origin-bottom-left">
                     ✦
                   </span>
                 </div>

@@ -113,13 +113,13 @@ export default function Navbar() {
                 Connect
               </p>
               <div className="flex gap-6 text-sm text-cream">
-                <a href="#" className="hover:text-gold transition-colors">
+                <a href="#" aria-label="Twitter Profile" className="hover:text-gold transition-colors">
                   Twitter
                 </a>
-                <a href="#" className="hover:text-gold transition-colors">
+                <a href="#" aria-label="LinkedIn Profile" className="hover:text-gold transition-colors">
                   LinkedIn
                 </a>
-                <a href="#" className="hover:text-gold transition-colors">
+                <a href="#" aria-label="GitHub Profile" className="hover:text-gold transition-colors">
                   GitHub
                 </a>
               </div>

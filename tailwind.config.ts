@@ -10,7 +10,7 @@ const config: Config = {
         surface: "#FFFBF4",
         border: "#E8C9A9",
         cream: "#35212E",
-        "cream-dim": "#795B65",
+        "cream-dim": "#5A424B",
         gold: "#B26B2B",
         "gold-bright": "#D9923E",
         "gold-pale": "#F7E2C7",
