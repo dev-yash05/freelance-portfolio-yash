@@ -35,9 +35,21 @@ export default function About() {
     <section
       id="about"
       ref={container}
-      className="px-6 md:px-14 py-24 md:py-48 max-w-content mx-auto"
+      className="relative w-full py-24 md:py-48 overflow-hidden"
     >
-      <div className="grid md:grid-cols-[1fr_1.1fr] gap-16 md:gap-24 items-start">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover z-0 opacity-25 pointer-events-none"
+      >
+        <source src="https://sgp.cloud.appwrite.io/v1/storage/buckets/69a433540033d5375fa5/files/6a79486f003df5341f4f/view?project=yashportfolio&impersonateuserid=&mode=admin" type="video/mp4" />
+      </video>
+
+      <div className="relative z-10 px-6 md:px-14 max-w-content mx-auto">
+        <div className="grid md:grid-cols-[1fr_1.1fr] gap-16 md:gap-24 items-start">
         {/* Left Side: Headline */}
         <div>
           <span className="about-animate opacity-0 translate-y-8 eyebrow block mb-6 uppercase tracking-widest text-gold text-sm font-semibold">
@@ -95,6 +107,7 @@ export default function About() {
               </p>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </section>
