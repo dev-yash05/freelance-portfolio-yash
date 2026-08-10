@@ -69,9 +69,14 @@ export default function BuiltFor() {
         <div className="flex flex-wrap justify-center items-center gap-x-5 gap-y-2 md:gap-x-10 md:gap-y-6 font-serif text-[40px] sm:text-6xl md:text-7xl lg:text-[80px] text-cream-dim leading-[1.1]">
           {segments.map((s, i) => (
             <React.Fragment key={s}>
-              <div className="overflow-hidden inline-flex py-1">
-                <span className="word-item inline-block origin-bottom-left transition-colors duration-400 hover:text-gold cursor-default select-none">
-                  {s}
+              <div className="overflow-hidden inline-flex py-2 group cursor-default select-none">
+                <span className="word-item relative inline-block">
+                  <span className="inline-block transition-all duration-500 ease-[cubic-bezier(0.2,1,0.2,1)] group-hover:-translate-y-[110%] group-hover:opacity-0">
+                    {s}
+                  </span>
+                  <span className="absolute left-0 top-0 inline-block translate-y-[110%] opacity-0 transition-all duration-500 ease-[cubic-bezier(0.2,1,0.2,1)] group-hover:translate-y-0 group-hover:opacity-100 text-gold italic drop-shadow-sm">
+                    {s}
+                  </span>
                 </span>
               </div>
               {i !== segments.length - 1 && (
